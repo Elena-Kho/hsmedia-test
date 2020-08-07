@@ -1,0 +1,22 @@
+.button {
+	padding: 5px 80px;
+	background: #f5f5d2;
+	border: 2px dotted #ba0022;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ba0022;
+	border-radius: 10px;
+	box-shadow: rgba(245, 245, 210, 1) 0 0 0 10px;
+
+	&:hover {
+		background: #ba0022;
+		color: #f5f5d2;
+		border: 2px dotted #f5f5d2;
+	}
+
+	&--buy {
+		padding: 5px 20px;
+	}
+}

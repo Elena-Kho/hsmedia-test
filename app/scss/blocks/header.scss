@@ -1,0 +1,28 @@
+.header {
+	margin: 0;
+	padding: 0;
+	min-height: 160px;
+	background: rgba(128, 120, 120, 0.2);
+}
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	margin-left: 44px;
+	margin-right: 55px;
+
+	outline: 1px solid lime;
+}
+
+.header__headding {
+	margin: 0;
+	padding: 0;
+	font-family: 'GothaPro', serif;
+	font-size: 70px;
+	font-weight: 400;
+	text-transform: lowercase;
+}
