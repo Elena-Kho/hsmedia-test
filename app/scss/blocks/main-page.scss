@@ -42,32 +42,106 @@
 	text-transform: uppercase;
 }
 
-.main-page__text-wrapper {
+.main-page__text-wrapper--one {
+	display: none;
 	width: 100%;
 	margin: 0 auto;
 	background: url("../images/dest/frame.svg") no-repeat 50% 0;
 	background-size: 51% auto;
 
 	outline: 1px solid lime;
+
+
+	.main-page__text {
+		width: 40%;
+		margin: 0 auto;
+		margin-top: 5vw;
+		margin-bottom: 6.2vw;
+		font-family: "Cochin";
+		font-size: 1.8vw;
+		font-weight: 300;
+		line-height: 150%;
+		font-style: italic;
+		text-transform: uppercase;
+		text-align: center;
+
+		outline: 1px solid lime;
+	}
 }
 
-.main-page__text {
-	width: 40%;
+.main-page__text-wrapper--two {
+	display: block;
 	margin: 0 auto;
-	margin-top: 5vw;
-	margin-bottom: 6.2vw;
-	font-family: "Cochin";
-	font-size: 1.8vw;
-	font-weight: 300;
-	line-height: 150%;
-	font-style: italic;
-	text-transform: uppercase;
-	text-align: center;
 
-	outline: 1px solid lime;
+	.main-page__text {
+		position: relative;
+		margin: 0 auto;
+		margin-top: 2vw;
+
+		font-family: "Cochin";
+		font-style: italic;
+		font-size: 1.7vw;
+		font-weight: 300;
+		line-height: 150%;
+		text-transform: uppercase;
+		text-align: center;
+
+	    &::after {
+		    content: "";
+		    position: absolute;
+		    top: 80px;
+		    left: 0;
+		    width: 100%;
+		    height: 40px;
+		    background: url("../images/dest/line.svg") no-repeat 50% 0;
+		}
+	}
+	.main-page__text-wishes {
+		margin: 0 auto;
+		margin-top: 5vw;
+		margin-bottom: 6.2vw;
+		font-size: 1vw;
+		font-weight: 300;
+		line-height: 150%;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.main-page__text-wish {
+		position: relative;
+		display: block;
+		padding: 15px 15px;
+
+		&:hover {
+			border: 2px solid #f5f5d2;
+			border-radius: 10px;			
+		}
+
+		&:hover:before {
+			content: "";
+		    position: absolute;
+		    top: 22px;
+		    left: -5px;
+		    width: 10px;
+		    height: 10px;
+		    border-radius: 50%;
+		    background-color: #f5f5d2;
+		}
+
+		&:hover:after {
+			content: "";
+		    position: absolute;
+		    top: 22px;
+		    left: 99.3%;
+		    width: 10px;
+		    height: 10px;
+		    border-radius: 50%;
+		    background-color: #f5f5d2;
+		}
+	}
 }
 
 .main-page__button {
+	display: block;
 	margin-top: 40px;
 }
 
