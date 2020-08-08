@@ -9,8 +9,6 @@
 	align-items: flex-start;
 	width: 97%;
 	margin: 0 auto;
-
-	outline: 1px solid black;
 }
 
 .main-page__info {
@@ -32,8 +30,6 @@
 	display: block;
 	width: 25%;
 	height: auto;
-
-	outline: 1px solid lime;
 }
 
 .main-page__note {
@@ -43,13 +39,11 @@
 }
 
 .main-page__text-wrapper--one {
-	display: none;
+	display: block;
 	width: 100%;
 	margin: 0 auto;
 	background: url("../images/dest/frame.svg") no-repeat 50% 0;
 	background-size: 51% auto;
-
-	outline: 1px solid lime;
 
 
 	.main-page__text {
@@ -64,13 +58,11 @@
 		font-style: italic;
 		text-transform: uppercase;
 		text-align: center;
-
-		outline: 1px solid lime;
 	}
 }
 
 .main-page__text-wrapper--two {
-	display: block;
+	display: none;
 	margin: 0 auto;
 
 	.main-page__text {
@@ -152,8 +144,6 @@
 	margin-top: -135px;
 	box-shadow: rgba(0, 0, 0, 1) 0 0 80px 8px;
 	border-radius: 20px;
-	/*background: url("../images/dest/photo.jpg") no-repeat 50% 0;*/
-	outline: 1px solid lime;
 }
 
 .main-page__img {
