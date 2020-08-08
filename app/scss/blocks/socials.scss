@@ -1,34 +1,42 @@
 .socials {
 	display: flex;
 	justify-content: space-between;
+
 	outline: 1px solid lime;
 }
 
 .socials__item {
-	width: 45px;
-	height: 45px;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
 
 	&--inst {
 		background: url("../images/dest/instagram.svg") no-repeat 50% 50%;
+		background-size: 25px auto;
 	}
 
 	&--youtube {
 		background: url("../images/dest/youtube.svg") no-repeat 50% 50%;
+		background-size: 30px auto;
 	}
 
 	&--ok {
 		background: url("../images/dest/ok.svg") no-repeat 50% 50%;
+		background-size: 15px auto;
 	}
 
 	&--vk {
 		background: url("../images/dest/vk.svg") no-repeat 50% 50%;
+		background-size: 30px auto;
 	}
 
 	&--twitter {
 		background: url("../images/dest/twitter.svg") no-repeat 50% 50%;
+		background-size: 25px auto;
 	}
 
 	&--fb {
 		background: url("../images/dest/fb.svg") no-repeat 50% 50%;
+		background-size: 13px auto;
 	}
 }

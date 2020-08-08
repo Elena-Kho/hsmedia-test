@@ -1,28 +1,31 @@
 .header {
-	margin: 0;
-	padding: 0;
+	width: 100%;
 	min-height: 160px;
-	background: rgba(128, 120, 120, 0.2);
+	margin: 0 auto;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05));
 }
 
 .header__wrapper {
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	width: 50%;
-	margin: 0;
-	padding: 0;
-	margin-left: 44px;
-	margin-right: 55px;
+	justify-content: flex-start;
+	align-items: baseline;
+	width: 97%;
+	margin: 0 auto;
 
-	outline: 1px solid lime;
+	outline: 1px solid black;
 }
 
-.header__headding {
+.header__heading {
+	display: inline-block;
 	margin: 0;
-	padding: 0;
-	font-family: 'GothaPro', serif;
-	font-size: 70px;
-	font-weight: 400;
+	margin-left: -6vw;
+	font-family: 'Cochin';
+	line-height: 80%;
+	font-size: 7.2vw;
+  	transform: scaleX(0.7);
 	text-transform: lowercase;
+
+	vertical-align: middle;
+
+	outline: 1px solid lime;
 }

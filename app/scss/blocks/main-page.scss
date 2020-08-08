@@ -1,29 +1,24 @@
 .main-page {
 	width: 100%;
-	min-height: 1080px;
-	margin: 0;
-	padding: 0;
-	margin-top: -160px;
-	background: #ba0022 url("../images/dest/bg.jpg") no-repeat 0 0;
+	margin: 0 auto;
 }
 
 .main-page__wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	outline: 1px solid lime;
+	width: 97%;
+	margin: 0 auto;
+
+	outline: 1px solid black;
 }
 
 .main-page__info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 50%;
-	margin: 0;
-	padding: 0;
-	margin-top: 160px;
-	margin-left: 44px;
-	margin-right: 55px;
+	width: 49%;
+	margin-top: 10px;
 }
 
 .main-page__header {
@@ -33,8 +28,16 @@
 	width: 100%
 }
 
+.main-page__logo {
+	display: block;
+	width: 25%;
+	height: auto;
+
+	outline: 1px solid lime;
+}
+
 .main-page__note {
-	font-size: 30px;
+	font-size: 1.3vw;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -42,20 +45,21 @@
 .main-page__text-wrapper {
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 40px;
 	background: url("../images/dest/frame.svg") no-repeat 50% 0;
-	background-size: 500px 500px;
+	background-size: 51% auto;
 
 	outline: 1px solid lime;
 }
 
 .main-page__text {
-	width: 350px;
+	width: 40%;
 	margin: 0 auto;
-	margin-top: 120px;
-	margin-bottom: 150px;
-	font-size: 40px;
+	margin-top: 5vw;
+	margin-bottom: 6.2vw;
+	font-family: "Cochin";
+	font-size: 1.8vw;
 	font-weight: 300;
+	line-height: 150%;
 	font-style: italic;
 	text-transform: uppercase;
 	text-align: center;
@@ -64,34 +68,30 @@
 }
 
 .main-page__button {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .main-page__photo {
 	position: relative;
 	width: 45%;
-	margin: 0;
-	padding: 0;
-	margin-top: 33px;
-	margin-right: 44px;
+	height: 95vh;
+	margin-top: -135px;
 	box-shadow: rgba(0, 0, 0, 1) 0 0 80px 8px;
-
+	border-radius: 20px;
+	/*background: url("../images/dest/photo.jpg") no-repeat 50% 0;*/
 	outline: 1px solid lime;
 }
 
 .main-page__img {
-	display: block;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
+	object-fit: cover;
+	border-radius: 5px;
 }
 
 .main-page__link-img {
 	position: absolute;
-	width: 200px;
+	width: 280px;
 	height: auto;
-	top: 350px;
-	left: 50px;
+	top: 490px;
+	left: 10px;
 }
 
